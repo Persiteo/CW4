@@ -34,7 +34,5 @@ class SuperJob(API):
 
     def get_response(self):
         response = requests.get('https://api.superjob.ru/2.0/vacancies/', headers=self.header, params=self.params)
-        if response.status_code == 200:
-            return response.json()['objects']
-        else:
-            print(response.status_code)
+        return response.json()['objects']
+
