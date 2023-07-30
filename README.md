@@ -3,7 +3,7 @@
 
 ## Вакансии HeadHunter и SuperJob
 
-Программа для получения вакансий с двух популярных платформ - HeadHunter и SuperJob.
+Программа для получения вакансий с платформ HeadHunter и SuperJob.
 
 ### Требования
 Для использования API HeadHunter и SuperJob необходимо установить Python 3.x и библиотеку requests. Получить API ключ от сервиса SuperJob и сохранить его в переменную среды SJ_API_KEY.
