@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
 import json
 from datetime import datetime
-import datetime
 
 
 class Vacancy:
